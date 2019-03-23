@@ -30,6 +30,7 @@ An application of CNN for crack detection using Caffe
     train.bat: Batch file for training and validating the CNN
     log.txt: Log file of training and validation processes
     trained_models: Folder for saving trained CNN model
+    deploy.prototxt： Deploy file used in CNN testing process
     demo/*.m: MATLAB codes for testing the trained model
     
 # Useage
