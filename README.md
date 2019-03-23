@@ -38,16 +38,15 @@ An application of CNN for crack detection using Caffe
     
     1. Download trained CNN model (https://drive.google.com/open?id=1Q3QaJoVVAq9dhqazNKiPnx5iU1BfBvJr) and put
        into the folder Trained_models
-    2. In the path of MATLAB interface caffe/matlab/demo, run demo/AlexNet_test.m. Then testing results will be
+    2. In the path of compiled MATLAB interface caffe/matlab/demo, run demo/AlexNet_test.m. Then testing results will be
        saved in the test folder
 
     
     Preraring datasets
     
-    1. Prepare your own data or download crack dataset from 
-       (https://drive.google.com/open?id=1XGoHqdG-WYhIaTsm-uctdV9J1CeLPhZR)             
-       If you need to change the training images or validating images. Then put the data into train/ and val/
-       respectively
+    1. Download crack dataset from (https://drive.google.com/open?id=1XGoHqdG-WYhIaTsm-uctdV9J1CeLPhZR) or
+       prepare your own data if you need to change the training images or validating images. Then put the data
+       into train/ and val/ respectively
     2. Generating label files train.txt and val.txt, run train_label.m and val_label.m
     3. Converting training set and validation set to genarate train_leveldb and val_leveldb, run
        convert_train_leveldb.bat and convert_val_leveldb.bat
@@ -57,11 +56,11 @@ An application of CNN for crack detection using Caffe
     
     Training and validation
     
-    Run train.bat, then the log.txt will be created autometiclly. Finally, trained CNN model will be saved
+    Run train.bat, then the log.txt will be created autometiclly and trained CNN models will be saved
     in the trained_models file
     
     
 # Note
     1. In all batch files (*.bat), the path of compiled caffe must be changed correctly 
-    2. The MATLAB files in demo folder must be run in the path of MATLAB interface caffe/matlab/demo
+    2. The MATLAB files in demo folder must be run in the path of compiled MATLAB interface caffe/matlab/demo
     3. In AlexNet_test.m, project_dir must be changed as the absolute path to the test folder
