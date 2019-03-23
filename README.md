@@ -36,28 +36,29 @@ An application of CNN for crack detection using Caffe
 
     Testing
     
-    1. Download trained CNN model (https://drive.google.com/open?id=1Q3QaJoVVAq9dhqazNKiPnx5iU1BfBvJr) and put into folder 
-       Trained_models
-    2. In the path of MATLAB interface caffe/matlab/demo, run demo/AlexNet_test.m. Then testing results will be saved
-       in test folder
+    1. Download trained CNN model (https://drive.google.com/open?id=1Q3QaJoVVAq9dhqazNKiPnx5iU1BfBvJr) and put
+       into the folder Trained_models
+    2. In the path of MATLAB interface caffe/matlab/demo, run demo/AlexNet_test.m. Then testing results will be
+       saved in the test folder
 
     
     Preraring datasets
     
     1. Prepare your own data or download crack dataset from 
        (https://drive.google.com/open?id=1XGoHqdG-WYhIaTsm-uctdV9J1CeLPhZR)             
-       If you need to change the training images or validating images. Then put the data into train/ and val/ respectively
+       If you need to change the training images or validating images. Then put the data into train/ and val/
+       respectively
     2. Generating label files train.txt and val.txt, run train_label.m and val_label.m
-    3. Converting training set and validation set to genarate train_leveldb and val_leveldb, run convert_train_leveldb.bat
-       and convert_val_leveldb.bat
-    4. Computing means of training set and validation set to genarate train_mean.binaryproto and val_mean.binaryproto, run 
-       mean_train.bat and mean_val.bat
+    3. Converting training set and validation set to genarate train_leveldb and val_leveldb, run
+       convert_train_leveldb.bat and convert_val_leveldb.bat
+    4. Computing means of training set and validation set to genarate train_mean.binaryproto and
+       val_mean.binaryproto, run mean_train.bat and mean_val.bat
     
     
     Training and validation
     
-    Run train.bat, then the log.txt will be created autometiclly. Finally, trained CNN model will be saved in the
-    trained_models file
+    Run train.bat, then the log.txt will be created autometiclly. Finally, trained CNN model will be saved
+    in the trained_models file
     
     
 # Note
