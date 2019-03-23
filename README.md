@@ -8,7 +8,7 @@ An application of CNN for crack detection using Caffe
 
 # Content
 
-    ·train/0/*: Folder for training images with cracks
+    train/0/*: Folder for training images with cracks
     train/1/*: Folder for training images without cracks
     val/0/*: Folder for validation images with cracks
     val/1/*: Folder for validation images without cracks
@@ -31,8 +31,9 @@ An application of CNN for crack detection using Caffe
     demo/*.m: MATLAB codes for testing the trained model
     
 # Useage
-   Preraring datasets
-    1.
+    
+    Preraring datasets
+    1. Prepare your own data or download crack dataset from (https://drive.google.com/open?id=1cplcUBmgHfD82YQTWnn1dssK2Z_xRpjx) If you need to change the training samples or validating sample, you can modify the index.txt file directly. Then put the data into data/train/ and data/valid/ respectively.
  
  
  
