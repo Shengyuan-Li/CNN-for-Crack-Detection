@@ -37,7 +37,7 @@ An application of CNN for crack detection using Caffe
     Testing
     
     1. Download trained CNN model (https://drive.google.com/open?id=1Q3QaJoVVAq9dhqazNKiPnx5iU1BfBvJr) and put
-       into the folder Trained_models
+       into the folder trained_models
     2. In the path of compiled MATLAB interface caffe/matlab/demo, run demo/AlexNet_test.m. Then testing results
        will be saved in the test folder
 
