@@ -57,7 +57,8 @@ An application of CNN for crack detection using Caffe
     
     Training and validation
     
-    Run train.bat, then the log.txt will be created autometiclly and trained CNN models will be saved
+    1. Build trained_models folder
+    2. Run train.bat, then the log.txt will be created autometiclly and trained CNN models will be saved
     in the trained_models file
     
     
