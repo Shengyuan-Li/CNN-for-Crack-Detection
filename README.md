@@ -8,11 +8,11 @@ An application of CNN for crack detection using Caffe
 
 # Content
 
-   train/0/*: Folder for training images with cracks
-   train/1/*: Folder for training images without cracks
-   val/0/*: Folder for validation images with cracks
-   val/1/*: Folder for validation images without cracks
-   test/*: Folder for testing images and testing results
+    ·train/0/*: Folder for training images with cracks
+    train/1/*: Folder for training images without cracks
+    val/0/*: Folder for validation images with cracks
+    val/1/*: Folder for validation images without cracks
+    test/*: Folder for testing images and testing results
     train_leveldb: Folder for converted training set
     val_leveldb: Folder for converted validation set
     train.txt: label file of training set
