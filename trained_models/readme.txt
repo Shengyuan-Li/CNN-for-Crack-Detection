@@ -1,0 +1,1 @@
+Trained CNN models will be saved in this folder.
