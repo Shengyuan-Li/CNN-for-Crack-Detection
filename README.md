@@ -55,7 +55,7 @@ An application of CNN for crack detection using Caffe
     Testing
     
     In the path of compiled MATLAB interface caffe/matlab/demo, run demo/AlexNet_test.m. Then testing results
-       will be saved in the test folder
+    will be saved in the test folder
     
     
 # Note
