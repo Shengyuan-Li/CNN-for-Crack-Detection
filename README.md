@@ -38,8 +38,7 @@ An application of CNN for crack detection using Caffe
     
     Preraring datasets
     
-    1. Prepare your own data if you need to change the training images or validating images. Then put the data
-       into train/ and val/ respectively
+    1. Prepare your own data. Then put the data into train/ and val/ respectively
     2. Generating label files train.txt and val.txt, run train_label.m and val_label.m
     3. Converting training set and validation set to genarate train_leveldb and val_leveldb, run
        convert_train_leveldb.bat and convert_val_leveldb.bat
